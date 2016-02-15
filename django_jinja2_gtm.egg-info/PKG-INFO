@@ -14,7 +14,7 @@ Description: django-jinja-gtm
         
         ## Installation and Usage
         
-        1. Run `pip install git://github.com/dbarchowsky/django-jinja2-gtm#egg=django-jinja2-gtm`
+        1. Run `pip install git+https://github.com/dbarchowsky/django-jinja2-gtm#egg=django-jinja2-gtm`
         2. Add `'jinja_gtm'` to the `INSTALLED_APPS` setting.
         3. In `yourapp/settings.py` create a constant to store the Google Tag Manager container id, e.g. `GOOGLE_TAG_ID = 'GTM_XXXXXX'`
         4. Import the constant into `yourapp/jinja2.py`, and add it to the Jinja2 environment in order to make it available 

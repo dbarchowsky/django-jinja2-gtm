@@ -5,6 +5,6 @@ include Makefile
 include tox.ini
 recursive-include docs *
 recursive-include requirements *
-recursive-include jinja2-gtm/jinja2/gtm *.html
-recursive-include jinja2-gtm/tests/media *.js *.css *.png *.coffee
-recursive-include jinja2-gtm/tests/test_templates *.html
+recursive-include jinja2_gtm/jinja2/gtm *.html
+recursive-include jinja2_gtm/tests/media *.js *.css *.png *.coffee
+recursive-include jinja2_gtm/tests/test_templates *.html
